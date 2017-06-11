@@ -7,6 +7,6 @@ def hello_world():
     return "No hablo queso!"
 
     
-if __name__ == "__main__":
+if __name__ == "__main__": #true if run as script (not imported as module)
     app.debug = True #security risk!!! set to False if going live...
     app.run()
