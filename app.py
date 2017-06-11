@@ -8,5 +8,5 @@ def hello_world():
 
     
 if __name__ == "__main__":
-    app.debug = True
+    app.debug = True #security risk!!! set to False if going live...
     app.run()
